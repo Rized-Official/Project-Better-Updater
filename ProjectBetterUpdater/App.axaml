@@ -1,0 +1,21 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="ProjectBetterUpdater.App"
+             xmlns:local="using:ProjectBetterUpdater"
+             RequestedThemeVariant="Default">
+             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+             
+
+    <Application.DataTemplates>
+        <local:ViewLocator />
+    </Application.DataTemplates>
+             
+    <Application.Resources>
+        <FontFamily x:Key="VCR">avares://ProjectBetterUpdater/Assets/Fonts#VCR OSD MONO</FontFamily>
+        <FontFamily x:Key="Cartoon">avares://ProjectBetterUpdater/Assets/Fonts#Cartoon Fun</FontFamily>
+    </Application.Resources>
+
+    <Application.Styles>
+        <FluentTheme />
+    </Application.Styles>
+</Application>

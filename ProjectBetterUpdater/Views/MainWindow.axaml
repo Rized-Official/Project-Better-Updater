@@ -1,0 +1,47 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:ProjectBetterUpdater.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="300"
+        x:Class="ProjectBetterUpdater.Views.MainWindow"
+        x:DataType="vm:MainViewModel"
+        Icon="avares://ProjectBetterUpdater/Assets/icon.ico"
+        Title="Checking for updates..."
+        Background="Transparent"
+        Closing="Window_OnClosing"
+        Width="400"
+        Height="300"
+        WindowDecorations="None"
+        ShowInTaskbar="False"
+        WindowStartupLocation="CenterScreen">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainViewModel />
+    </Design.DataContext>
+    <Panel>
+        <Rectangle Width="180" Height="230" RadiusX="12" RadiusY="12" Fill="rgba(0, 0, 0, 0.68)"></Rectangle>
+        <Image Source="avares://ProjectBetterUpdater/Assets/PJBTLogo.png" HorizontalAlignment="Center" VerticalAlignment="Center" Width="210">
+            <Image.RenderTransform>
+                <TranslateTransform Y="-10"></TranslateTransform>
+            </Image.RenderTransform>
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="10"></DropShadowEffect>
+            </Image.Effect>
+        </Image>
+        <TextBlock Name="StatusText" FontFamily="{StaticResource Cartoon}" TextAlignment="Center" Width="500" Height="200" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White" Margin="0, 0, 0, -80">
+            Checking for updates...
+            <TextBlock.Effect>
+                <DropShadowEffect BlurRadius="10"></DropShadowEffect>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Name="WaitText" FontFamily="{StaticResource VCR}" TextAlignment="Center" Width="200" Height="200" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White" Margin="0, 0, 0, -100">
+            Please wait
+            <TextBlock.Effect>
+                <DropShadowEffect BlurRadius="10"></DropShadowEffect>
+            </TextBlock.Effect>
+        </TextBlock>
+    </Panel>
+</Window>

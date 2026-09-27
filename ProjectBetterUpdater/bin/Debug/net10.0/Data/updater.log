@@ -1,0 +1,429 @@
+[2026-09-27 13:03:16] === Updater started ===
+[2026-09-27 13:03:16] Checking for updates...
+[2026-09-27 13:03:17] GitHub API response: 200 OK
+[2026-09-27 13:03:17] Rate limit remaining: 26
+[2026-09-27 13:03:17] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:03:17] Local version: 'no version' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:03:17] Update required: True
+[2026-09-27 13:03:17] Chosen asset: name='ProjectBetterLauncher.0.0.1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1a/ProjectBetterLauncher.0.0.1.zip'
+[2026-09-27 13:03:17] Download response: 200 OK
+[2026-09-27 13:03:19] === Updater started ===
+[2026-09-27 13:03:19] Checking for updates...
+[2026-09-27 13:03:20] GitHub API response: 200 OK
+[2026-09-27 13:03:20] Rate limit remaining: 25
+[2026-09-27 13:03:20] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:03:20] Local version: 'no version' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:03:20] Update required: True
+[2026-09-27 13:03:20] Chosen asset: name='ProjectBetterLauncher.0.0.1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1a/ProjectBetterLauncher.0.0.1.zip'
+[2026-09-27 13:03:20] Could not delete old temp zip: The process cannot access the file 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\update_temp.zip' because it is being used by another process.
+[2026-09-27 13:03:21] Download response: 200 OK
+[2026-09-27 13:03:21] Download failed: System.IO.IOException: The process cannot access the file 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\update_temp.zip' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at ProjectBetterUpdater.Views.MainWindow.DownloadFileAsync(String url, String destinationPath) in C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Views\MainWindow.axaml.cs:line 318
+   at ProjectBetterUpdater.Views.MainWindow.CheckForUpdates() in C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Views\MainWindow.axaml.cs:line 161
+[2026-09-27 13:03:22] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:03:28] Downloaded zip size: 58241209 bytes
+[2026-09-27 13:03:28] Extraction failed: System.IO.IOException: The process cannot access the file 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileStreamOptions options)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName, Boolean overwriteFiles)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding, Boolean overwriteFiles)
+   at ProjectBetterUpdater.Views.MainWindow.CheckForUpdates() in C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Views\MainWindow.axaml.cs:line 183
+[2026-09-27 13:03:30] Process already running, exiting updater.
+[2026-09-27 13:03:33] === Updater started ===
+[2026-09-27 13:03:33] Checking for updates...
+[2026-09-27 13:03:34] GitHub API response: 200 OK
+[2026-09-27 13:03:34] Rate limit remaining: 24
+[2026-09-27 13:03:34] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:03:34] Local version: 'no version' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:03:34] Update required: True
+[2026-09-27 13:03:34] Chosen asset: name='ProjectBetterLauncher.0.0.1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1a/ProjectBetterLauncher.0.0.1.zip'
+[2026-09-27 13:03:34] Download response: 200 OK
+[2026-09-27 13:03:43] Downloaded zip size: 58241209 bytes
+[2026-09-27 13:03:43] Extracted exe path found: 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe'
+[2026-09-27 13:03:43] Update applied successfully. New local version: v0.0.1a
+[2026-09-27 13:03:44] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:04:24] === Updater started ===
+[2026-09-27 13:04:24] Checking for updates...
+[2026-09-27 13:04:24] GitHub API response: 200 OK
+[2026-09-27 13:04:24] Rate limit remaining: 23
+[2026-09-27 13:04:24] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:04:24] Local version: 'no version' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:04:24] Update required: True
+[2026-09-27 13:04:24] Chosen asset: name='ProjectBetterLauncher.0.0.1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1a/ProjectBetterLauncher.0.0.1.zip'
+[2026-09-27 13:04:25] Download response: 200 OK
+[2026-09-27 13:04:29] === Updater started ===
+[2026-09-27 13:04:29] Checking for updates...
+[2026-09-27 13:04:30] GitHub API response: 200 OK
+[2026-09-27 13:04:30] Rate limit remaining: 22
+[2026-09-27 13:04:30] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:04:30] Local version: 'no version' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:04:30] Update required: True
+[2026-09-27 13:04:30] Chosen asset: name='ProjectBetterLauncher.0.0.1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1a/ProjectBetterLauncher.0.0.1.zip'
+[2026-09-27 13:04:30] Could not delete old temp zip: The process cannot access the file 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\update_temp.zip' because it is being used by another process.
+[2026-09-27 13:04:31] Download response: 200 OK
+[2026-09-27 13:04:31] Download failed: System.IO.IOException: The process cannot access the file 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\update_temp.zip' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at ProjectBetterUpdater.Views.MainWindow.DownloadFileAsync(String url, String destinationPath) in C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Views\MainWindow.axaml.cs:line 318
+   at ProjectBetterUpdater.Views.MainWindow.CheckForUpdates() in C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Views\MainWindow.axaml.cs:line 161
+[2026-09-27 13:04:33] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:04:36] Downloaded zip size: 58241209 bytes
+[2026-09-27 13:04:37] Extraction failed: System.IO.IOException: The process cannot access the file 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileStreamOptions options)
+   at System.IO.Compression.ZipFileExtensions.ExtractToFile(ZipArchiveEntry source, String destinationFileName, Boolean overwrite)
+   at System.IO.Compression.ZipFileExtensions.ExtractToDirectory(ZipArchive source, String destinationDirectoryName, Boolean overwriteFiles)
+   at System.IO.Compression.ZipFile.ExtractToDirectory(String sourceArchiveFileName, String destinationDirectoryName, Encoding entryNameEncoding, Boolean overwriteFiles)
+   at ProjectBetterUpdater.Views.MainWindow.CheckForUpdates() in C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Views\MainWindow.axaml.cs:line 183
+[2026-09-27 13:04:38] Process already running, exiting updater.
+[2026-09-27 13:05:27] === Updater started ===
+[2026-09-27 13:05:27] Checking for updates...
+[2026-09-27 13:05:27] GitHub API response: 200 OK
+[2026-09-27 13:05:27] Rate limit remaining: 21
+[2026-09-27 13:05:27] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:05:27] Local version: 'no version' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:05:27] Update required: True
+[2026-09-27 13:05:27] Chosen asset: name='ProjectBetterLauncher.0.0.1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1a/ProjectBetterLauncher.0.0.1.zip'
+[2026-09-27 13:05:28] Download response: 200 OK
+[2026-09-27 13:05:30] === Updater started ===
+[2026-09-27 13:05:30] Checking for updates...
+[2026-09-27 13:05:30] GitHub API response: 200 OK
+[2026-09-27 13:05:30] Rate limit remaining: 20
+[2026-09-27 13:05:30] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:05:30] Local version: 'no version' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:05:30] Update required: True
+[2026-09-27 13:05:30] Chosen asset: name='ProjectBetterLauncher.0.0.1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1a/ProjectBetterLauncher.0.0.1.zip'
+[2026-09-27 13:05:30] Could not delete old temp zip: The process cannot access the file 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\update_temp.zip' because it is being used by another process.
+[2026-09-27 13:05:31] Download response: 200 OK
+[2026-09-27 13:05:31] Download failed: System.IO.IOException: The process cannot access the file 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\update_temp.zip' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at ProjectBetterUpdater.Views.MainWindow.DownloadFileAsync(String url, String destinationPath) in C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Views\MainWindow.axaml.cs:line 318
+   at ProjectBetterUpdater.Views.MainWindow.CheckForUpdates() in C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Views\MainWindow.axaml.cs:line 161
+[2026-09-27 13:05:33] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:05:36] Downloaded zip size: 58241209 bytes
+[2026-09-27 13:05:36] Extracted exe path found: 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe'
+[2026-09-27 13:05:36] Update applied successfully. New local version: v0.0.1a
+[2026-09-27 13:05:39] === Updater started ===
+[2026-09-27 13:05:39] Checking for updates...
+[2026-09-27 13:05:39] GitHub API response: 200 OK
+[2026-09-27 13:05:39] Rate limit remaining: 19
+[2026-09-27 13:05:39] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:05:39] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:05:39] Update required: False
+[2026-09-27 13:05:40] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:05:43] === Updater started ===
+[2026-09-27 13:05:43] Checking for updates...
+[2026-09-27 13:05:43] GitHub API response: 200 OK
+[2026-09-27 13:05:43] Rate limit remaining: 18
+[2026-09-27 13:05:43] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:05:43] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:05:43] Update required: False
+[2026-09-27 13:05:44] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:05:50] === Updater started ===
+[2026-09-27 13:05:50] Checking for updates...
+[2026-09-27 13:05:50] GitHub API response: 200 OK
+[2026-09-27 13:05:50] Rate limit remaining: 17
+[2026-09-27 13:05:50] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:05:50] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:05:50] Update required: False
+[2026-09-27 13:05:50] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:05:54] === Updater started ===
+[2026-09-27 13:05:54] Checking for updates...
+[2026-09-27 13:05:54] GitHub API response: 200 OK
+[2026-09-27 13:05:54] Rate limit remaining: 16
+[2026-09-27 13:05:54] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:05:54] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:05:54] Update required: False
+[2026-09-27 13:05:54] Process already running, exiting updater.
+[2026-09-27 13:06:13] === Updater started ===
+[2026-09-27 13:06:13] Checking for updates...
+[2026-09-27 13:06:14] GitHub API response: 200 OK
+[2026-09-27 13:06:14] Rate limit remaining: 15
+[2026-09-27 13:06:14] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:06:14] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:06:14] Update required: False
+[2026-09-27 13:06:14] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:06:39] === Updater started ===
+[2026-09-27 13:06:39] Checking for updates...
+[2026-09-27 13:06:39] GitHub API response: 200 OK
+[2026-09-27 13:06:39] Rate limit remaining: 14
+[2026-09-27 13:06:39] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:06:39] Local version: 'no version' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:06:39] Update required: True
+[2026-09-27 13:06:39] Chosen asset: name='ProjectBetterLauncher.0.0.1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1a/ProjectBetterLauncher.0.0.1.zip'
+[2026-09-27 13:06:40] Download response: 200 OK
+[2026-09-27 13:06:47] Downloaded zip size: 58241209 bytes
+[2026-09-27 13:06:47] Extracted exe path found: 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe'
+[2026-09-27 13:06:47] Update applied successfully. New local version: v0.0.1a
+[2026-09-27 13:06:47] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:08:30] === Updater started ===
+[2026-09-27 13:08:30] Checking for updates...
+[2026-09-27 13:08:31] GitHub API response: 200 OK
+[2026-09-27 13:08:31] Rate limit remaining: 13
+[2026-09-27 13:08:31] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:08:31] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:08:31] Update required: False
+[2026-09-27 13:08:31] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:11:10] === Updater started ===
+[2026-09-27 13:11:10] Checking for updates...
+[2026-09-27 13:11:10] GitHub API response: 200 OK
+[2026-09-27 13:11:10] Rate limit remaining: 12
+[2026-09-27 13:11:11] Latest release found: tag='v0.0.1af109' name='Project: Better Launcher v0.0.1-alpha fix 1' assets=1
+[2026-09-27 13:11:11] Local version: 'v0.0.1a' | Remote version: 'v0.0.1af109' | Exe exists: True
+[2026-09-27 13:11:11] Update required: True
+[2026-09-27 13:11:11] Chosen asset: name='ProjectBetterLauncher0.0.1af1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1af109/ProjectBetterLauncher0.0.1af1.zip'
+[2026-09-27 13:11:11] Download response: 200 OK
+[2026-09-27 13:11:22] Downloaded zip size: 57819551 bytes
+[2026-09-27 13:11:22] Extracted exe path found: 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe'
+[2026-09-27 13:11:22] Update applied successfully. New local version: v0.0.1af109
+[2026-09-27 13:11:22] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:13:07] === Updater started ===
+[2026-09-27 13:13:07] Checking for updates...
+[2026-09-27 13:13:07] GitHub API response: 200 OK
+[2026-09-27 13:13:07] Rate limit remaining: 11
+[2026-09-27 13:13:07] Latest release found: tag='v0.0.1af109' name='Project: Better Launcher v0.0.1-alpha fix 1' assets=1
+[2026-09-27 13:13:07] Local version: 'v0.0.1af109' | Remote version: 'v0.0.1af109' | Exe exists: True
+[2026-09-27 13:13:07] Update required: False
+[2026-09-27 13:13:08] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:13:59] === Updater started ===
+[2026-09-27 13:13:59] Checking for updates...
+[2026-09-27 13:13:59] GitHub API response: 200 OK
+[2026-09-27 13:13:59] Rate limit remaining: 10
+[2026-09-27 13:13:59] Latest release found: tag='v0.0.1af109' name='Project: Better Launcher v0.0.1-alpha fix 1' assets=1
+[2026-09-27 13:13:59] Local version: 'v0.0.1af109' | Remote version: 'v0.0.1af109' | Exe exists: True
+[2026-09-27 13:13:59] Update required: False
+[2026-09-27 13:14:00] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:14:25] === Updater started ===
+[2026-09-27 13:14:25] Checking for updates...
+[2026-09-27 13:14:26] GitHub API response: 200 OK
+[2026-09-27 13:14:26] Rate limit remaining: 9
+[2026-09-27 13:14:26] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:14:26] Local version: 'v0.0.1af109' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:14:26] Update required: True
+[2026-09-27 13:14:26] Chosen asset: name='ProjectBetterLauncher.0.0.1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1a/ProjectBetterLauncher.0.0.1.zip'
+[2026-09-27 13:14:26] Download response: 200 OK
+[2026-09-27 13:14:34] Downloaded zip size: 58241209 bytes
+[2026-09-27 13:14:34] Extracted exe path found: 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe'
+[2026-09-27 13:14:34] Update applied successfully. New local version: v0.0.1a
+[2026-09-27 13:14:34] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:15:53] === Updater started ===
+[2026-09-27 13:15:53] Checking for updates...
+[2026-09-27 13:15:54] GitHub API response: 200 OK
+[2026-09-27 13:15:54] Rate limit remaining: 8
+[2026-09-27 13:15:54] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:15:54] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:15:54] Update required: False
+[2026-09-27 13:15:54] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:16:55] === Updater started ===
+[2026-09-27 13:16:55] Checking for updates...
+[2026-09-27 13:16:55] GitHub API response: 200 OK
+[2026-09-27 13:16:55] Rate limit remaining: 7
+[2026-09-27 13:16:55] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:16:55] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:16:55] Update required: False
+[2026-09-27 13:16:55] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:16:58] === Updater started ===
+[2026-09-27 13:16:58] Checking for updates...
+[2026-09-27 13:16:59] GitHub API response: 200 OK
+[2026-09-27 13:16:59] Rate limit remaining: 6
+[2026-09-27 13:16:59] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:16:59] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:16:59] Update required: False
+[2026-09-27 13:16:59] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:17:11] === Updater started ===
+[2026-09-27 13:17:11] Checking for updates...
+[2026-09-27 13:17:11] GitHub API response: 200 OK
+[2026-09-27 13:17:11] Rate limit remaining: 5
+[2026-09-27 13:17:11] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:17:11] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:17:11] Update required: False
+[2026-09-27 13:17:12] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:17:35] === Updater started ===
+[2026-09-27 13:17:35] Checking for updates...
+[2026-09-27 13:17:35] GitHub API response: 200 OK
+[2026-09-27 13:17:35] Rate limit remaining: 4
+[2026-09-27 13:17:35] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:17:35] Local version: 'no version' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:17:35] Update required: True
+[2026-09-27 13:17:35] Chosen asset: name='ProjectBetterLauncher.0.0.1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1a/ProjectBetterLauncher.0.0.1.zip'
+[2026-09-27 13:17:36] Download response: 200 OK
+[2026-09-27 13:17:44] Downloaded zip size: 58241209 bytes
+[2026-09-27 13:17:44] Extracted exe path found: 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe'
+[2026-09-27 13:17:44] Update applied successfully. New local version: v0.0.1a
+[2026-09-27 13:17:44] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:19:35] === Updater started ===
+[2026-09-27 13:19:35] Checking for updates...
+[2026-09-27 13:19:35] GitHub API response: 200 OK
+[2026-09-27 13:19:35] Rate limit remaining: 3
+[2026-09-27 13:19:35] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:19:35] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:19:35] Update required: False
+[2026-09-27 13:19:36] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:20:25] === Updater started ===
+[2026-09-27 13:20:25] Checking for updates...
+[2026-09-27 13:20:26] GitHub API response: 200 OK
+[2026-09-27 13:20:26] Rate limit remaining: 1
+[2026-09-27 13:20:26] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:20:26] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:20:26] Update required: False
+[2026-09-27 13:20:26] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:21:09] === Updater started ===
+[2026-09-27 13:21:09] Checking for updates...
+[2026-09-27 13:21:09] GitHub API response: 200 OK
+[2026-09-27 13:21:09] Rate limit remaining: 0
+[2026-09-27 13:21:09] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 13:21:09] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 13:21:09] Update required: False
+[2026-09-27 13:21:10] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:21:12] === Updater started ===
+[2026-09-27 13:21:12] Checking for updates...
+[2026-09-27 13:21:13] GitHub API response: 403 Forbidden
+[2026-09-27 13:21:13] Rate limit remaining: 0
+[2026-09-27 13:21:13] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:21:13] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:21:14] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:21:50] === Updater started ===
+[2026-09-27 13:21:51] Checking for updates...
+[2026-09-27 13:21:51] GitHub API response: 403 Forbidden
+[2026-09-27 13:21:51] Rate limit remaining: 0
+[2026-09-27 13:21:51] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:21:51] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:21:52] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:23:28] === Updater started ===
+[2026-09-27 13:23:28] Checking for updates...
+[2026-09-27 13:23:29] GitHub API response: 403 Forbidden
+[2026-09-27 13:23:29] Rate limit remaining: 0
+[2026-09-27 13:23:29] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:23:29] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:23:30] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:23:42] === Updater started ===
+[2026-09-27 13:23:42] Checking for updates...
+[2026-09-27 13:23:42] GitHub API response: 403 Forbidden
+[2026-09-27 13:23:42] Rate limit remaining: 0
+[2026-09-27 13:23:42] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:23:42] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:23:44] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:26:06] === Updater started ===
+[2026-09-27 13:26:06] Checking for updates...
+[2026-09-27 13:26:06] GitHub API response: 403 Forbidden
+[2026-09-27 13:26:06] Rate limit remaining: 0
+[2026-09-27 13:26:06] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:26:06] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:26:08] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:26:32] === Updater started ===
+[2026-09-27 13:26:32] Checking for updates...
+[2026-09-27 13:26:32] GitHub API response: 403 Forbidden
+[2026-09-27 13:26:32] Rate limit remaining: 0
+[2026-09-27 13:26:32] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:26:32] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:26:33] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:26:44] === Updater started ===
+[2026-09-27 13:26:44] Checking for updates...
+[2026-09-27 13:26:44] GitHub API response: 403 Forbidden
+[2026-09-27 13:26:44] Rate limit remaining: 0
+[2026-09-27 13:26:44] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:26:44] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:26:46] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:27:27] === Updater started ===
+[2026-09-27 13:27:27] Checking for updates...
+[2026-09-27 13:27:27] GitHub API response: 403 Forbidden
+[2026-09-27 13:27:27] Rate limit remaining: 0
+[2026-09-27 13:27:27] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:27:27] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:27:29] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:28:03] === Updater started ===
+[2026-09-27 13:28:03] Checking for updates...
+[2026-09-27 13:28:04] GitHub API response: 403 Forbidden
+[2026-09-27 13:28:04] Rate limit remaining: 0
+[2026-09-27 13:28:04] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:28:04] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:28:05] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:28:17] === Updater started ===
+[2026-09-27 13:28:17] Checking for updates...
+[2026-09-27 13:28:17] === Updater started ===
+[2026-09-27 13:28:17] Checking for updates...
+[2026-09-27 13:28:17] GitHub API response: 403 Forbidden
+[2026-09-27 13:28:17] Rate limit remaining: 0
+[2026-09-27 13:28:17] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:28:17] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:28:17] GitHub API response: 403 Forbidden
+[2026-09-27 13:28:17] Rate limit remaining: 0
+[2026-09-27 13:28:17] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:28:17] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:28:18] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:28:18] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:29:49] === Updater started ===
+[2026-09-27 13:29:49] Checking for updates...
+[2026-09-27 13:29:49] === Updater started ===
+[2026-09-27 13:29:49] Checking for updates...
+[2026-09-27 13:29:49] GitHub API response: 403 Forbidden
+[2026-09-27 13:29:49] Rate limit remaining: 0
+[2026-09-27 13:29:49] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:29:49] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:29:49] GitHub API response: 403 Forbidden
+[2026-09-27 13:29:49] Rate limit remaining: 0
+[2026-09-27 13:29:49] GitHub API error body: {"message":"API rate limit exceeded for 31.175.30.73. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+
+[2026-09-27 13:29:49] No release info returned (API failed or empty). Launching existing exe.
+[2026-09-27 13:29:51] Process already running, exiting updater.
+[2026-09-27 13:29:51] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:45:37] === Updater started ===
+[2026-09-27 13:45:37] Checking for updates...
+[2026-09-27 13:45:38] GitHub API response: 200 OK
+[2026-09-27 13:45:38] Rate limit remaining: 59
+[2026-09-27 13:45:38] Rate limit resets at: 2026-09-27 12:45:37Z
+[2026-09-27 13:45:38] Latest release found: tag='v0.0.1af1' name='Project: Better Launcher v0.0.1-alpha fix 1' assets=1
+[2026-09-27 13:45:38] Local version: 'no version' | Remote version: 'v0.0.1af1' | Exe exists: True
+[2026-09-27 13:45:38] Update required: True
+[2026-09-27 13:45:38] Chosen asset: name='ProjectBetterLauncher0.0.1af1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1af1/ProjectBetterLauncher0.0.1af1.zip'
+[2026-09-27 13:45:38] Download response: 200 OK
+[2026-09-27 13:45:49] Downloaded zip size: 57819551 bytes
+[2026-09-27 13:45:49] Extracted exe path found: 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe'
+[2026-09-27 13:45:49] Update applied successfully. New local version: v0.0.1af1
+[2026-09-27 13:45:49] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:46:10] === Updater started ===
+[2026-09-27 13:46:10] Skipping update check, last check was at 2026-09-27 11:45:38Z.
+[2026-09-27 13:46:10] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:46:18] === Updater started ===
+[2026-09-27 13:46:18] Skipping update check, last check was at 2026-09-27 11:45:38Z.
+[2026-09-27 13:46:19] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:46:25] === Updater started ===
+[2026-09-27 13:46:25] Skipping update check, last check was at 2026-09-27 11:45:38Z.
+[2026-09-27 13:46:26] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:46:35] === Updater started ===
+[2026-09-27 13:46:35] Skipping update check, last check was at 2026-09-27 11:45:38Z.
+[2026-09-27 13:46:36] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 13:47:24] === Updater started ===
+[2026-09-27 13:47:24] Skipping update check, last check was at 2026-09-27 11:45:38Z.
+[2026-09-27 13:47:24] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe

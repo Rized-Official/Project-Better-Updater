@@ -1,0 +1,4 @@
+C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Builded\ProjectBetterUpdater.pdb
+C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Builded\libHarfBuzzSharp.pdb
+C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Builded\libSkiaSharp.pdb
+C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\Builded\ProjectBetterUpdater.exe
