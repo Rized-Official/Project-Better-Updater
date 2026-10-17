@@ -427,3 +427,140 @@
 [2026-09-27 13:47:24] === Updater started ===
 [2026-09-27 13:47:24] Skipping update check, last check was at 2026-09-27 11:45:38Z.
 [2026-09-27 13:47:24] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 14:13:05] === Updater started ===
+[2026-09-27 14:13:05] Checking for updates...
+[2026-09-27 14:13:06] GitHub API response: 200 OK
+[2026-09-27 14:13:06] Rate limit remaining: 55
+[2026-09-27 14:13:06] Rate limit resets at: 2026-09-27 12:45:37Z
+[2026-09-27 14:13:06] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 14:13:06] Local version: 'no version' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 14:13:06] Update required: True
+[2026-09-27 14:13:06] Chosen asset: name='ProjectBetterLauncher.0.0.1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1a/ProjectBetterLauncher.0.0.1.zip'
+[2026-09-27 14:13:07] Download response: 200 OK
+[2026-09-27 14:13:15] Downloaded zip size: 58241209 bytes
+[2026-09-27 14:13:15] Extracted exe path found: 'C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe'
+[2026-09-27 14:13:15] Update applied successfully. New local version: v0.0.1a
+[2026-09-27 14:13:16] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-27 15:28:08] === Updater started ===
+[2026-09-27 15:28:08] Checking for updates...
+[2026-09-27 15:28:09] GitHub API response: 200 OK
+[2026-09-27 15:28:09] Rate limit remaining: 59
+[2026-09-27 15:28:09] Rate limit resets at: 2026-09-27 14:28:09Z
+[2026-09-27 15:28:09] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-27 15:28:09] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-27 15:28:09] Update required: False
+[2026-09-27 15:28:09] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-09-29 20:14:19] === Updater started ===
+[2026-09-29 20:14:19] Checking for updates...
+[2026-09-29 20:14:19] GitHub API response: 200 OK
+[2026-09-29 20:14:19] Rate limit remaining: 58
+[2026-09-29 20:14:19] Rate limit resets at: 2026-09-29 18:41:04Z
+[2026-09-29 20:14:19] Latest release found: tag='v0.0.1a' name='Project: Better Launcher v0.0.1-alpha' assets=1
+[2026-09-29 20:14:19] Local version: 'v0.0.1a' | Remote version: 'v0.0.1a' | Exe exists: True
+[2026-09-29 20:14:19] Update required: False
+[2026-09-29 20:14:20] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:21:26] === Updater started ===
+[2026-10-17 13:21:26] Checking for updates...
+[2026-10-17 13:21:26] GitHub API response: 404 NotFound
+[2026-10-17 13:21:26] Rate limit remaining: 59
+[2026-10-17 13:21:26] Rate limit resets at: 2026-10-17 12:21:26Z
+[2026-10-17 13:21:26] GitHub API error body: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#list-releases","status":"404"}
+[2026-10-17 13:21:26] No release info returned (API failed or empty). Launching existing exe.
+[2026-10-17 13:21:28] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:27:27] === Updater started ===
+[2026-10-17 13:27:27] Checking for updates...
+[2026-10-17 13:27:27] GitHub API response: 404 NotFound
+[2026-10-17 13:27:27] Rate limit remaining: 58
+[2026-10-17 13:27:27] Rate limit resets at: 2026-10-17 12:21:26Z
+[2026-10-17 13:27:27] GitHub API error body: {"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#list-releases","status":"404"}
+[2026-10-17 13:27:27] No release info returned (API failed or empty). Launching existing exe.
+[2026-10-17 13:27:29] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:30:33] === Updater started ===
+[2026-10-17 13:30:33] Skipping update check, last check was at 2026-10-17 11:27:27Z.
+[2026-10-17 13:30:34] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:30:55] === Updater started ===
+[2026-10-17 13:30:55] Skipping update check, last check was at 2026-10-17 11:27:27Z.
+[2026-10-17 13:30:55] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:31:41] === Updater started ===
+[2026-10-17 13:31:41] Skipping update check, last check was at 2026-10-17 11:27:27Z.
+[2026-10-17 13:31:42] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:31:42] === Updater started ===
+[2026-10-17 13:31:42] Skipping update check, last check was at 2026-10-17 11:27:27Z.
+[2026-10-17 13:31:43] Process already running, exiting updater.
+[2026-10-17 13:31:50] === Updater started ===
+[2026-10-17 13:31:50] Skipping update check, last check was at 2026-10-17 11:27:27Z.
+[2026-10-17 13:31:50] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:31:50] === Updater started ===
+[2026-10-17 13:31:50] Skipping update check, last check was at 2026-10-17 11:27:27Z.
+[2026-10-17 13:31:51] Process already running, exiting updater.
+[2026-10-17 13:32:05] === Updater started ===
+[2026-10-17 13:32:05] Skipping update check, last check was at 2026-10-17 11:27:27Z.
+[2026-10-17 13:32:06] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:32:10] === Updater started ===
+[2026-10-17 13:32:10] Skipping update check, last check was at 2026-10-17 11:27:27Z.
+[2026-10-17 13:32:10] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:39:44] === Updater started ===
+[2026-10-17 13:39:44] Checking for updates...
+[2026-10-17 13:39:44] GitHub API response: 200 OK
+[2026-10-17 13:39:44] Rate limit remaining: 56
+[2026-10-17 13:39:44] Latest release found: tag='v0.0.1af1' name='v0.0.1 Alpha Fix 1' assets=1
+[2026-10-17 13:39:44] Local version: 'v0.0.1a' | Remote version: 'v0.0.1af1' | Exe exists: True
+[2026-10-17 13:39:44] Update required: True
+[2026-10-17 13:39:44] Chosen asset: name='ProjectBetterLauncher.0.0.1af1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1af1/ProjectBetterLauncher.0.0.1af1.zip'
+[2026-10-17 13:39:45] Download response: 200 OK
+[2026-10-17 13:40:02] === Updater started ===
+[2026-10-17 13:40:02] Checking for updates...
+[2026-10-17 13:40:02] GitHub API response: 200 OK
+[2026-10-17 13:40:02] Rate limit remaining: 55
+[2026-10-17 13:40:02] Latest release found: tag='v0.0.1af1' name='v0.0.1 Alpha Fix 1' assets=1
+[2026-10-17 13:40:02] Local version: 'no version' | Remote version: 'v0.0.1af1' | Exe exists: True
+[2026-10-17 13:40:02] Update required: True
+[2026-10-17 13:40:02] Chosen asset: name='ProjectBetterLauncher.0.0.1af1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1af1/ProjectBetterLauncher.0.0.1af1.zip'
+[2026-10-17 13:40:03] Download response: 200 OK
+[2026-10-17 13:40:10] === Updater started ===
+[2026-10-17 13:40:10] Skipping update check, last check was at 2026-10-17 11:40:02Z.
+[2026-10-17 13:40:10] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:40:24] Downloaded zip size: 126199691 bytes
+[2026-10-17 13:40:26] Added new JSON entry from release: DiscordRPC
+[2026-10-17 13:40:26] Added new JSON entry from release: AcceptedInstalled
+[2026-10-17 13:40:26] Added new JSON entry from release: BackgroundName
+[2026-10-17 13:40:26] Added new JSON entry from release: GameLocation
+[2026-10-17 13:40:26] Added new JSON entry from release: SharedOpinion
+[2026-10-17 13:40:26] Added new JSON entry from release: InstalledVersion
+[2026-10-17 13:40:26] Added new JSON entry from release: BackgroundAnimation
+[2026-10-17 13:40:26] Added missing default JSON entry: HibernationMode
+[2026-10-17 13:40:26] Added missing default JSON entry: SoundVolume
+[2026-10-17 13:40:26] Added missing default JSON entry: LastSeenChangelogVersion
+[2026-10-17 13:40:26] Update applied successfully. New local version: v0.0.1af1
+[2026-10-17 13:40:27] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:40:56] === Updater started ===
+[2026-10-17 13:40:56] Checking for updates...
+[2026-10-17 13:40:57] GitHub API response: 200 OK
+[2026-10-17 13:40:57] Rate limit remaining: 54
+[2026-10-17 13:40:57] Latest release found: tag='v0.0.1af1' name='v0.0.1 Alpha Fix 1' assets=1
+[2026-10-17 13:40:57] Local version: 'no version' | Remote version: 'v0.0.1af1' | Exe exists: True
+[2026-10-17 13:40:57] Update required: True
+[2026-10-17 13:40:57] Chosen asset: name='ProjectBetterLauncher.0.0.1af1.zip' url='https://github.com/Rized-Official/Project-Better-Launcher/releases/download/v0.0.1af1/ProjectBetterLauncher.0.0.1af1.zip'
+[2026-10-17 13:40:57] Download response: 200 OK
+[2026-10-17 13:41:13] Downloaded zip size: 126199691 bytes
+[2026-10-17 13:41:15] Update applied successfully. New local version: v0.0.1af1
+[2026-10-17 13:41:15] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:46:24] === Updater started ===
+[2026-10-17 13:46:24] Checking for updates...
+[2026-10-17 13:46:25] GitHub API response: 200 OK
+[2026-10-17 13:46:25] Rate limit remaining: 51
+[2026-10-17 13:46:25] Latest release found: tag='v0.0.1af1' name='v0.0.1 Alpha Fix 1' assets=1
+[2026-10-17 13:46:25] Local version: 'v0.0.1af1' | Remote version: 'v0.0.1af1' | Exe exists: True
+[2026-10-17 13:46:25] Update required: False
+[2026-10-17 13:46:25] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:53:08] === Updater started ===
+[2026-10-17 13:53:08] Checking for updates...
+[2026-10-17 13:53:09] GitHub API response: 200 OK
+[2026-10-17 13:53:09] Rate limit remaining: 50
+[2026-10-17 13:53:09] Latest release found: tag='v0.0.1af1' name='v0.0.1 Alpha Fix 1' assets=1
+[2026-10-17 13:53:09] Local version: 'v0.0.1af1' | Remote version: 'v0.0.1af1' | Exe exists: True
+[2026-10-17 13:53:09] Update required: False
+[2026-10-17 13:53:09] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe
+[2026-10-17 13:53:27] === Updater started ===
+[2026-10-17 13:53:27] Skipping update check, last check was at 2026-10-17 11:53:09Z.
+[2026-10-17 13:53:27] Launched: C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Debug\net10.0\Data\Launcher\ProjectBetterLauncher.exe

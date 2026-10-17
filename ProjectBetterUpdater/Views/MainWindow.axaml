@@ -3,45 +3,112 @@
         xmlns:vm="using:ProjectBetterUpdater.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="300"
+        mc:Ignorable="d" d:DesignWidth="420" d:DesignHeight="320"
         x:Class="ProjectBetterUpdater.Views.MainWindow"
         x:DataType="vm:MainViewModel"
         Icon="avares://ProjectBetterUpdater/Assets/icon.ico"
-        Title="Checking for updates..."
+        Title="Project: Better Updater"
         Background="Transparent"
         Closing="Window_OnClosing"
-        Width="400"
-        Height="300"
+        Width="420"
+        Height="320"
         WindowDecorations="None"
         ShowInTaskbar="False"
         WindowStartupLocation="CenterScreen">
 
     <Design.DataContext>
-        <!-- This only sets the DataContext for the previewer in an IDE,
-             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainViewModel />
     </Design.DataContext>
+
     <Panel>
-        <Rectangle Width="180" Height="230" RadiusX="12" RadiusY="12" Fill="rgba(0, 0, 0, 0.68)"></Rectangle>
-        <Image Source="avares://ProjectBetterUpdater/Assets/PJBTLogo.png" HorizontalAlignment="Center" VerticalAlignment="Center" Width="210">
-            <Image.RenderTransform>
-                <TranslateTransform Y="-10"></TranslateTransform>
-            </Image.RenderTransform>
-            <Image.Effect>
-                <DropShadowEffect BlurRadius="10"></DropShadowEffect>
-            </Image.Effect>
-        </Image>
-        <TextBlock Name="StatusText" FontFamily="{StaticResource Cartoon}" TextAlignment="Center" Width="500" Height="200" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White" Margin="0, 0, 0, -80">
-            Checking for updates...
-            <TextBlock.Effect>
-                <DropShadowEffect BlurRadius="10"></DropShadowEffect>
-            </TextBlock.Effect>
-        </TextBlock>
-        <TextBlock Name="WaitText" FontFamily="{StaticResource VCR}" TextAlignment="Center" Width="200" Height="200" FontSize="10" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White" Margin="0, 0, 0, -100">
-            Please wait
-            <TextBlock.Effect>
-                <DropShadowEffect BlurRadius="10"></DropShadowEffect>
-            </TextBlock.Effect>
-        </TextBlock>
+        <Border Width="360"
+                Height="270"
+                Background="#080808"
+                BorderBrush="White"
+                BorderThickness="3"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Padding="20">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="25" Color="Black" Opacity="0.95"/>
+            </Border.Effect>
+
+            <Grid RowDefinitions="Auto, *, Auto">
+                <Border Grid.Row="0"
+                        Background="rgba(255, 255, 0, 0.1)"
+                        BorderBrush="Yellow"
+                        BorderThickness="1"
+                        Padding="10, 3"
+                        HorizontalAlignment="Center">
+                    <TextBlock Name="WaitText"
+                               Text="LAUNCHER UPDATER"
+                               FontFamily="{StaticResource VCR}"
+                               FontSize="10"
+                               Foreground="Yellow"
+                               HorizontalAlignment="Center"/>
+                </Border>
+
+                <Image Grid.Row="1"
+                       Source="avares://ProjectBetterUpdater/Assets/PJBTLogo.png"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Width="230"
+                       Margin="0, -10, 0, -10">
+                    <Image.Effect>
+                        <DropShadowEffect BlurRadius="12" Color="Black" Opacity="0.9"/>
+                    </Image.Effect>
+                </Image>
+
+                <StackPanel Grid.Row="2" Spacing="8" HorizontalAlignment="Stretch">
+                    <Rectangle Height="1" Fill="rgba(255,255,255,0.18)" Width="300"/>
+
+                    <TextBlock Name="StatusText"
+                               FontFamily="{StaticResource Cartoon}"
+                               TextAlignment="Center"
+                               TextWrapping="Wrap"
+                               FontSize="10"
+                               HorizontalAlignment="Center"
+                               Foreground="White"
+                               Text="Checking for updates...">
+                        <TextBlock.Effect>
+                            <DropShadowEffect BlurRadius="6" Color="Black"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+
+                    <Border Name="ProgressBorder"
+                            BorderBrush="White"
+                            BorderThickness="2"
+                            Height="22"
+                            Width="300"
+                            Background="Black"
+                            IsVisible="False"
+                            HorizontalAlignment="Center">
+                        <Panel>
+                            <ProgressBar Name="DownloadProgressBar"
+                                         Minimum="0"
+                                         Maximum="100"
+                                         Value="0"
+                                         Height="18"
+                                         CornerRadius="0"
+                                         Background="Black"
+                                         Foreground="Yellow"
+                                         HorizontalAlignment="Stretch"
+                                         VerticalAlignment="Stretch"/>
+                            <TextBlock Name="ProgressPercentText"
+                                       Text="0%"
+                                       FontFamily="{StaticResource VCR}"
+                                       FontSize="11"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect BlurRadius="4" Color="Black" OffsetX="1" OffsetY="1"/>
+                                </TextBlock.Effect>
+                            </TextBlock>
+                        </Panel>
+                    </Border>
+                </StackPanel>
+            </Grid>
+        </Border>
     </Panel>
 </Window>

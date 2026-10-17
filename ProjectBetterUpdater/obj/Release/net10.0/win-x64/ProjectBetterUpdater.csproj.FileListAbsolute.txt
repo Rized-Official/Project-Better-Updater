@@ -49,3 +49,5 @@ C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUp
 C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\obj\Release\net10.0\win-x64\ProjectBetterUpdater.pdb
 C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\obj\Release\net10.0\win-x64\ProjectBetterUpdater.genruntimeconfig.cache
 C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\obj\Release\net10.0\win-x64\ref\ProjectBetterUpdater.dll
+C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\bin\Release\net10.0\win-x64\Data\Data.json
+C:\Users\Adam\Videos\ProjectBetter\Launcher\ProjectBetterUpdater\ProjectBetterUpdater\obj\Release\net10.0\win-x64\ProjectBetterUpdater.sourcelink.json
