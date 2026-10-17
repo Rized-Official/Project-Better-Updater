@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectBetterUpdater")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7fb98ee186d4df5739fcfea7c480f81c7acfcd6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c36262bf5d3c2df44b11f641d15c35c977f19a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectBetterUpdater")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectBetterUpdater")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
