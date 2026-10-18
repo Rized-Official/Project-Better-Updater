@@ -1,4 +1,4 @@
-# Project: Better Upadter
+# Project: Better Updater
 An automatic updater for the Project: Better Launcher
 
 # How to install it?
